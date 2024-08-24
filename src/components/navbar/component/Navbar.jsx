@@ -118,7 +118,7 @@ export default function Navbar() {
 
             {isDesktop ? (
               categories.map(category => (
-                <li key={category._id}><NavLink to={`/category/${category.name}/${category._id}`} onClick={<Loader/>}>{category.name}</NavLink></li>
+                <li key={category._id}><NavLink to={`/category/${category.name}/${category._id}`}>{category.name}</NavLink></li>
               ))
             ) : (
               <>
