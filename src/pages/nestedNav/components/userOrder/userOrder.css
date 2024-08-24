@@ -1,0 +1,65 @@
+.userOrder {
+  /* background-color: rgba(255, 255, 255, 0.796); */
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    text-align: center;
+    overflow: auto;
+  }
+  
+  .loader-container {
+    width: 100%;
+    margin-top: 0px;
+  }
+  
+  .userTable {
+
+    width: 100%;
+    overflow: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .userTable table {
+    background-color: white;
+
+    width: 100%;
+    max-width: 1000px; 
+    border: 2px solid gray;
+    border-collapse: collapse;
+  }
+  
+  .userTable table th,
+  .userTable table td {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid gray;
+    word-wrap: break-word; /* Allow long words to break and wrap */
+    max-width: 200px; /* Set a maximum width for each cell */
+  }
+  
+  .userTable table th {
+    background-color: rgb(245, 238, 236);
+  }
+  
+  .userOrder h1 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .userTable table th,
+    .userTable table td {
+      font-size: 14px; 
+    }
+  
+    .userTable table td {
+      word-break: break-all; 
+      max-width: 100px; 
+    }
+  }
+  

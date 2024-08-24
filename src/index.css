@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif, sans-serif;
+}
+
+.container{
+    width:calc( 100% - 8rem);
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style-type:none;
+}
+
+
+
+
+.toast-container {
+    z-index: 9999999999999999999999; 
+  }
+  
+
+  /* -------------------------------------- */
+  @media (max-width: 1090px) {
+    .container {
+        width:calc( 100% - 3rem);
+    }
+  }
+
+

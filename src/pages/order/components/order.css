@@ -1,0 +1,161 @@
+.orderProducts {
+    background: linear-gradient(#ffb3c1, #589ff1 );
+    min-height: 87.4vh;
+}
+
+.orderProducts .order .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.orderProducts .order form{
+    min-width: 400px;
+    max-width: 1000px;  
+    background-color: rgb(255, 255, 255);
+    padding: 25px 25px 60px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: -6px 7px 10px 0px rgba(116, 114, 114, 0.619);
+    border: 1px double rgba(67, 64, 64, 0.512);
+    border-radius: 5px;
+    margin-top: 50px;
+    transition: width 0.3s ease;
+}
+
+
+
+.orderProducts .order form input{
+    width: 100%;
+    padding: 8px 50% 8px 8px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    margin-bottom: 10px;
+
+}
+
+.orderProducts .order form .info{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: red;
+}
+
+
+
+.orderProducts .order form button{
+    background-color: #f2778d;
+    /* padding: 8px 50% 8px 8px; */
+    padding: 8px 43%;
+    border-radius: 5px;
+    /* border: 1px solid rgba(92, 91, 91, 0.541); */
+    border: none;
+    box-shadow: 2px 3px 5px 0px #b357689a;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: auto;
+    cursor: pointer;
+}
+
+.orderProducts .cartProduct{
+    display: flex;
+    gap:8px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.orderProducts .productItem{
+    /* width: 100px; */
+    background-color: #f2778d;
+    box-shadow: -4px 7px 10px 0px #b357689a;
+    border-radius: 5px;
+}
+
+.orderProducts .productImg {
+    width: 110px;
+    height: 110px;
+    background-color: white;
+}
+
+.orderProducts .order form .productImg img {
+    width: 100%;
+    height: 100%; 
+    object-fit:fill;
+    border-radius: 0; 
+    display: block;
+}
+
+@media (max-width: 1019px) and (min-width: 828px){ 
+
+    .orderProducts .order form{
+        min-width: 400px;
+        max-width: 800px; 
+    }
+}
+
+@media (max-width: 828px) and (min-width: 715px){ 
+
+    .orderProducts .order form{
+        min-width: 400px;
+        max-width: 700px; 
+    }
+}
+
+@media (max-width: 715px) and (min-width: 618px){ 
+
+    .orderProducts .order form{
+        min-width: 400px;
+        max-width: 600px; 
+    }
+}
+
+@media (max-width: 618px) and (min-width: 516px){ 
+
+    .orderProducts .order form{
+        min-width: 400px;
+        max-width: 500px; 
+    }
+}
+
+@media (max-width: 516px) and (min-width: 416px){ 
+
+    .orderProducts .order form{
+        min-width: 350px;
+        max-width: 400px; 
+    }
+
+    .orderProducts .order form button{
+        padding: 8px 40%;
+    }
+
+    form h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 416px){ 
+
+    .orderProducts .order form{
+        min-width: 320px;
+        max-width: 330px; 
+        padding: 25px 25px 30px 25px;
+
+    }
+
+    .orderProducts .order form button{
+        padding: 8px 38%;
+    }
+
+    .orderProducts form h1{
+        font-size: 26px;
+    }
+}
+
+
+
+

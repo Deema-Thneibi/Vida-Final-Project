@@ -1,0 +1,71 @@
+.register{
+    background: linear-gradient( #ffb3c1, #589ff1 );
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 87.4vh;
+}
+
+.register form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 30px 80px;
+    background-color: rgba(255, 255, 255, 0.403);
+    border-radius: 10px;
+}
+
+.register h1{
+    text-align: center;
+}
+
+.register input{
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #589ff1;
+}
+
+.register input[type='file']{
+    border: none;
+}
+
+.register p{
+    font-size: 13px;
+    color: red;
+}
+
+.register button{
+    background-color: #f2778d;
+    border:none;
+    box-shadow: 4px 2px 6px 0px rgba(116, 114, 114, 0.619);
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 0px;
+    font-weight: 550;
+}
+
+@media (max-width: 483px){
+
+    
+    .register form{
+        gap: 3px;
+        padding: 20px 30px;
+    }
+    
+    .register h1{
+        font-size: 26px;
+        text-align: center;
+    }
+    
+    .register input{
+        padding: 4px;
+    }
+    
+
+    
+    .register button{
+        font-size: 14px;
+        padding: 8px 0px;
+    }
+}

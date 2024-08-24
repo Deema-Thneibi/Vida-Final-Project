@@ -1,0 +1,394 @@
+@media (max-width: 891px){
+    #footer{
+        margin-top: 520px;
+    }
+}
+
+@media (max-width: 733px){
+    #footer{
+        margin-top: 350px;
+    }
+}
+
+@media (max-width: 665px){
+    #footer{
+        margin-top: 600px;
+    }
+}
+
+@media (max-width: 637px){
+    #footer{
+        margin-top: 550px;
+    }
+}
+
+
+@media (max-width: 550px){
+    #footer{
+        margin-top: 450px;
+    }
+}
+
+@media (max-width: 498px){
+    #footer{
+        margin-top: 370px;
+    }
+}
+
+@media (max-width: 475px){
+    #footer{
+        margin-top: 2250px;
+    }
+}
+
+@media (max-width: 455px){
+    #footer{
+        margin-top: 2130px;
+    }
+}
+
+@media (max-width: 439px){
+    #footer{
+        margin-top: 2050px;
+    }
+}
+
+@media (max-width: 425px){
+    #footer{
+        margin-top: 2010px;
+    }
+}
+
+@media (max-width: 410px){
+    #footer{
+        margin-top: 1930px;
+    }
+}
+
+@media (max-width: 399px){
+    #footer{
+        margin-top: 1930px;
+    }
+
+    #footer .social .link img{
+        width: 80%;
+    }
+}
+
+@media (max-width: 382px){
+    #footer{
+        margin-top: 1870px;
+    }
+
+    #footer .social .link img{
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 370px){
+    #footer{
+        margin-top: 1700px;
+    }
+
+    #footer .social .link img{
+        width: 80%;
+    }
+
+    #footer .logo-1 {
+        font-size: 1.2rem;
+    
+    }
+
+    #footer .logo .contact ul li a{
+        font-size: 0.85rem;
+    }
+
+    #footer .logo .contact ul li img{
+        width: 10%;
+    }
+
+    #footer .about h3{
+        font-size: 1rem;
+    }
+
+    #footer .about ul li {
+        font-size: 0.85rem;
+    }
+
+    #footer .social h3 {
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 360px){
+    #footer{
+        margin-top: 1650px;
+    }
+
+    #footer .social .link img{
+        width: 100%;
+    }
+
+
+}
+
+
+
+@media  (max-width: 849px) and (min-width: 745px){
+     footer {
+        margin-top: 100px;
+    }
+    
+    footer .container .row{
+        gap: 30px;
+        padding: 30px 0px;
+    }
+    
+    footer .container .logo{
+        gap: 30px;
+    }
+    
+    footer .container .logo ul{
+        gap: 15px;
+    }
+    
+    footer .container .logo ul li{
+        gap: 8px;
+    }
+    
+    footer .container .logo ul li a{
+        font-size: 15px;
+    }
+    
+    footer  .container .item{
+        gap: 20px;
+    }
+    
+    footer  .container .item h3{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+    footer  .container .item .home, .about, .social{
+        gap: 12px;
+    }
+    
+    footer .container .item ul {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    footer  .container .item  .social .link{
+        gap: 12px;
+    }
+} 
+
+@media  (max-width: 745px) and (min-width: 657px){
+    body footer {
+        margin-top: 80px;
+    }
+    
+    footer .container .row{
+        gap: 20px;
+        padding: 50px 0px;
+    }
+    
+    footer .container .logo{
+        gap: 20px;
+    }
+    
+    footer .container .logo ul{
+        gap: 10px;
+    }
+    
+    footer .container .logo ul li{
+        gap: 6px;
+    }
+    
+    footer .container .logo ul li a{
+        font-size: 12px;
+    }
+    
+    footer  .container .item{
+        gap: 18px;
+    }
+    
+    footer  .container .item h3{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
+    footer  .container .item .home, .about, .social{
+        gap: 10px;
+    }
+    
+    footer .container .item ul {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    footer  .container .item  .social .link{
+        gap: 10px;
+    }
+} 
+
+@media  (max-width: 657px){
+
+    footer .container .row{
+        gap: 20px;
+        padding: 30px 0px;
+    }
+    
+    footer .container .logo{
+        gap: 20px;
+    }
+    
+    footer .container .logo ul{
+        gap: 10px;
+    }
+    
+    footer .container .logo ul li{
+        gap: 6px;
+    }
+    
+    footer .container .logo ul li a{
+        font-size: 15px;
+    }
+    
+    footer  .container .item{
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+    
+    footer  .container .item h3{
+        font-size: 20px;
+        line-height: 18px;
+    }
+    
+    footer  .container .item .home, .about, .social{
+        gap: 10px;
+    }
+    
+    footer .container .item ul {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
+    footer  .container .item  .social .link{
+        gap: 10px;
+    }
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(243, 244, 246);
+    box-shadow: 4px 2px 6px 0px rgba(116, 114, 114, 0.619);
+    margin-top: 10px;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer .row{
+    gap: 40px;
+    padding: 40px 0px;
+    justify-content: space-between;
+}
+
+.logoImg {
+    width: 2.813rem;
+}
+
+.logo-1 img {
+    width: 100%;
+    display: flex;
+    object-fit: cover;
+}
+
+.logo-1 {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+footer .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    padding-left: 0px;
+    gap: 40px;
+}
+
+
+
+footer .logo ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer .logo ul li{
+    display: flex;
+    gap: 10px;
+}
+
+footer .logo ul li a{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(38, 38, 38, 1);
+}
+
+footer .logo a:hover{
+    transition: color 0.5s;
+}
+
+footer .logo a:hover{
+    color: rgb(173, 39, 124);
+}
+
+footer  .item{
+    display: flex;
+    gap: 30px;
+}
+
+footer  .item h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(38, 38, 38, 1);
+    line-height: 30px;
+}
+
+footer  .item .about, .social{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+footer .item ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(89, 89, 90, 1);
+    line-height: 27px;
+}
+
+footer  .item  .social .link{
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}

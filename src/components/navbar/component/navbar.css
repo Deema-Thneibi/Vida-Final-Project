@@ -1,0 +1,198 @@
+/* Base Styles */
+.navbar {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 99999999999999999;
+}
+
+.logoImg {
+    width: 2.813rem;
+}
+
+.navbar img {
+    width: 100%;
+    display: flex;
+    object-fit: cover;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 10px;
+
+}
+
+.navbar .navLinks {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem 0rem;
+    box-shadow: 4px 2px 6px 0px rgba(116, 114, 114, 0.619);
+    text-transform: capitalize;
+}
+
+.navLinks .row {
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.logoSearchCartAccount {
+    padding: 0.5rem 0rem;
+    background: linear-gradient(270deg, transparent, #ffb3c1, transparent);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    position: relative;
+    width: 12.5rem;
+    height: 2rem;
+}
+
+.position {
+    position: absolute;
+    right: 0rem;
+}
+
+.search input {
+    border: none;
+    border-radius: 3.125rem;
+    width: 12.5rem;
+    padding: 0.5rem 0.625rem;
+    font-size: 0.8438rem;
+}
+
+.searchIcon {
+    color: gray;
+    padding: 0.5rem 0.9375rem;
+    font-size: 0.8125rem;
+}
+
+.searchCartAccount .row {
+    gap: 1rem;
+    align-items: center;
+    margin-top: 0.3125rem;
+    padding-right: 10px;
+}
+
+.account {
+    position: relative;
+}
+
+.accountMenu {
+    background-color: white;
+    position: absolute;
+    left: -45px;
+    top: 26px;
+    padding: 10px;
+    border: 2px solid rgba(128, 128, 128, 0.108);
+}
+
+.accountMenu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.accountMenu li {
+    width: 100px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.categorySelct select{
+    border: none;
+    font-size: 14px;
+}
+
+/* Media Queries */
+@media (max-width: 1309px) {
+    .navLinks .row {
+        gap: 20px;    
+    }
+}
+
+@media (max-width: 1201px) {
+    .navLinks .row {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 1010px) {
+    .navLinks .row {
+        gap:15px;
+    }
+}
+
+@media (max-width: 965px) {
+    .navLinks .row {
+        gap:10px;
+    }
+
+    .accountMenu {
+        padding: 8px;
+    }
+
+    .accountMenu li {
+        width: 65px;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .navbar .logo a{
+        font-size: 1.6rem;
+    }
+
+    .navbar .search input{
+        width: 10rem;
+    }
+}
+
+@media (max-width: 448px) {
+    .navbar .logo a{
+        font-size: 1.2rem;
+    }
+
+    .navbar .search input{
+        width: 6rem;
+    }
+}
+
+@media (max-width: 424px) {
+
+    .navbar .container{
+        width:100%;
+    }
+    .navbar .logo a{
+        font-size: 1.2rem;
+    }
+
+    .navbar .search input{
+        width: 6rem;
+    }
+
+    .navbar .search {
+        width: 9rem;
+        height: 2rem;
+    }
+
+    .accountMenu {
+        padding: 8px;
+    }
+
+    .accountMenu li {
+        width: 65px;
+    }
+
+}

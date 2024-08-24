@@ -1,0 +1,15 @@
+.nested{
+    /* background-color: white; */
+    background: linear-gradient( #ffb3c1, #589ff1 );
+    min-height: 87.4vh;
+    overflow: hidden;
+    display: flex;
+}
+
+@media (max-width: 555px){
+    .nested{
+        display: flex;
+        flex-direction: column;
+    }
+}
+

@@ -1,0 +1,35 @@
+.contact{
+    width: 100%;
+}
+
+
+.contact .userInfo{
+    background-color: white;
+
+
+    width: fit-content;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: -4px 7px 10px 0px #b357689a;
+    border: 2px solid #f2778d;
+    margin-top: 60px;
+}
+
+
+
+
+
+.contact .userInfo span{
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.contact p{
+    margin-top: 0px;
+}
+
+.contact h1{
+    margin-bottom: 20px;
+}
+

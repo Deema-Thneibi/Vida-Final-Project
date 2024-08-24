@@ -1,0 +1,597 @@
+.shoppingCart{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+
+
+.shoppingCart .container{
+      margin-top: 40px;
+}
+
+.cart{
+    flex-grow: 1;
+}
+
+.cartEmpty{
+    margin-bottom: 30px;
+
+}
+
+.cartEmpty .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.cartEmpty .cartImg{
+    width: 400px;
+}
+
+.cartEmpty p{
+    color:rgba(128, 128, 128, 0.692)
+}
+
+.cartEmpty button{
+    padding: 10px 80px;
+    border-radius: 15px;
+    border: none;
+    background-color: #f2778d;
+    font-size: 16px;
+    font-weight: 550;
+    box-shadow: 4px 2px 6px 0px rgba(116, 114, 114, 0.619);
+  }
+
+.cartEmpty img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+
+.productImg{
+    width:3%;
+    padding: 10px;
+}
+
+
+.productImg img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.shoppingCart th{
+    text-align: center;
+    padding: 10px;
+    font-size: 19.5px;
+}
+
+
+.shoppingCart tr .productName{
+    width: 20%;
+    padding: 10px;
+}
+
+.shoppingCart tr .productName h2{
+    font-size: 18px;
+    margin-bottom: 10%;
+}
+
+.shoppingCart tr .productName p{
+    align-items: center;
+    font-size: 18px;
+    margin-top: 20%;
+    color: rgba(119, 113, 113, 0.771);
+    transition: color 0.3s ;
+}
+
+.shoppingCart tr .productName p:hover{
+    color: rgb(202, 32, 32);
+}
+
+
+.shoppingCart .productQuantity{
+    display: flex;
+    gap: 5px;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.shoppingCart .productQuantity button{
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.shoppingCart .quantity p{
+    font-size: 17px;
+}
+
+.shoppingCart .quantity{
+    width:5%;
+}
+
+.shoppingCart .ProductPrice{
+    text-align: center;
+    width: 5%;
+    font-size: 17px;
+}
+
+
+.shoppingCart .ProductSubTotal{
+    text-align: center;
+    width: 5%;
+    font-size: 17px;
+}
+
+
+.shoppingCart .cartSummary{
+    /* width: calc((100% - 10px) / 2); */
+
+    width: 600px;
+    
+    /* background-color: aqua; */
+    background: linear-gradient(#ffb3c1, #589ff1 );
+    border-top-left-radius: 4%;
+    border-bottom-left-radius: 4%;
+    box-shadow: -4px 7px 10px 0px #b357689a;
+    min-height: 100vh;
+
+    /* border: 2px dotted black; */
+}
+
+
+
+.shoppingCart .summary{
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    padding: 25px 25px 60px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: -6px 7px 10px 0px rgba(116, 114, 114, 0.619);
+    border: 1px double rgba(67, 64, 64, 0.512);
+    border-radius: 5px;
+    margin-top: 80px;
+}
+
+.shoppingCart .clearCart{
+    box-shadow: 4px 2px 6px 0px rgba(116, 114, 114, 0.619);
+    /* border-radius: 15px; */
+    border: none;
+    padding: 6px 20px;
+    font-size: 19.5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.shoppingCart .subtotal{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: rgba(46, 46, 46, 0.751);
+}
+
+.shoppingCart .shippingFee{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: rgba(46, 46, 46, 0.751);
+}
+
+.shoppingCart .free{
+    color:green;
+    font-weight: bold;
+}
+
+.shoppingCart .total{
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(74, 73, 73, 0.623);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.shoppingCart .checkOut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shoppingCart .checkOut button{
+    padding: 15px 90px;
+    border-radius: 15px;
+    border: none;
+    background-color: #f2778d;
+    font-size: 18px;
+    font-weight: 550;
+    box-shadow: 4px 2px 6px 0px rgba(116, 114, 114, 0.619);
+    color:aliceblue;
+    cursor: pointer;
+}
+
+
+@media (max-width: 677px) and (min-width: 441px) {
+    
+    .cartEmpty .cartImg{
+        width: 360px;
+    }
+
+    .cartEmpty h2{
+        font-size: 20px;
+    }
+    
+    .cartEmpty p{
+        font-size: 13px;
+    }
+    
+    .cartEmpty button{
+        padding: 8px 70px;
+        font-size: 15px;
+      }
+    
+}
+
+@media (max-width: 441px){
+    
+    .cartEmpty .cartImg{
+        width: 300px;
+    }
+
+    .cartEmpty h2{
+        font-size: 20px;
+    }
+    
+    .cartEmpty p{
+        font-size: 13px;
+    }
+    
+    .cartEmpty button{
+        padding: 8px 70px;
+        font-size: 15px;
+      }
+    
+}
+
+@media (max-width: 1246px) and (min-width:878px){ 
+     
+    .productImg{
+        width:2%;
+        padding: 10px;
+    }
+    
+    
+    .shoppingCart th{
+        font-size: 16px;
+    }
+    
+    
+    .shoppingCart tr .productName{
+        width: 15%;
+        padding: 10px;
+    }
+    
+    .shoppingCart tr .productName h2{
+        font-size: 13px;
+        margin-bottom: 10%;
+    }
+    
+    .shoppingCart tr .productName p{
+        font-size: 13px;
+        margin-top: 20%;
+    }
+    
+
+    
+    .shoppingCart .productQuantity button{
+        padding: 2px 6px;
+        font-size: 12px;
+    }
+    
+    .shoppingCart .quantity p{
+        font-size: 13px;
+    }
+    
+    .shoppingCart .quantity{
+        width:5%;
+    }
+    
+    .shoppingCart .ProductPrice{
+        text-align: center;
+        width: 5%;
+        font-size: 14px;
+    }
+    
+    
+    .shoppingCart .ProductSubTotal{
+        text-align: center;
+        width: 5%;
+        font-size: 15px;
+    }
+    
+    
+    .cartSummary{
+        /* width: calc((100% - 10px) / 2); */
+    
+        width: 600px;
+        /* min-width: 500px; */
+    }
+    
+    
+    
+    .summary{
+        padding: 20px 20px 40px 20px;
+        gap: 20px;
+        margin-top: 80px;
+    }
+
+    .summary h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .clearCart{
+        padding: 3px 10px;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .subtotal{
+        font-size: 15px;
+    }
+    
+    .shippingFee{
+        font-size: 15px;
+    }  
+    
+    .total{
+        font-size: 18px;
+    }
+    
+    
+    .checkOut button{
+        padding: 8px 30%;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 878px) and (min-width: 653px) { 
+    .shoppingCart{
+        flex-direction: column;
+        gap:100px;
+    }
+
+    .shoppingCart .cartSummary{
+        width: 100%;
+    }
+}
+
+@media (max-width: 653px) and (min-width: 467px){ 
+    .shoppingCart{
+        flex-direction: column;
+        gap:100px;
+    }
+
+    .shoppingCart .cartSummary{
+        width: 100%;
+    }
+
+         
+    .shoppingCart .productImg{
+        width:2%;
+        padding: 10px;
+    }
+    
+    
+    .shoppingCart  th{
+        font-size: 16px;
+    }
+    
+    
+    .shoppingCart tr .productName{
+        width: 15%;
+        padding: 10px;
+    }
+    
+    .shoppingCart tr .productName h2{
+        font-size: 13px;
+        margin-bottom: 10%;
+    }
+    
+    .shoppingCart tr .productName p{
+        font-size: 13px;
+        margin-top: 20%;
+    }
+    
+
+    
+    .shoppingCart .productQuantity button{
+        padding: 2px 6px;
+        font-size: 12px;
+    }
+    
+    .shoppingCart .quantity p{
+        font-size: 13px;
+    }
+    
+    .shoppingCart .quantity{
+        width:5%;
+    }
+    
+    .shoppingCart .ProductPrice{
+        text-align: center;
+        width: 5%;
+        font-size: 14px;
+    }
+    
+    
+    .shoppingCart .ProductSubTotal{
+        text-align: center;
+        width: 5%;
+        font-size: 15px;
+    }
+    
+    
+    
+    
+    .shoppingCart .summary{
+        padding: 20px 20px 40px 20px;
+        gap: 20px;
+        margin-top: 80px;
+    }
+
+    .shoppingCart .summary h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .shoppingCart.clearCart{
+        padding: 3px 10px;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .shoppingCart .subtotal{
+        font-size: 15px;
+    }
+    
+    .shoppingCart .shippingFee{
+        font-size: 15px;
+    }  
+    
+    .shoppingCart .total{
+        font-size: 18px;
+    }
+    
+    
+    .checkOut button{
+        padding: 8px 30%;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 467px){ 
+
+    .shoppingCart .container {
+        width: 100%;
+        margin:auto;
+    }
+    .shoppingCart{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .shoppingCart .cartSummary{
+        width: 100%;
+    }
+
+         
+    .shoppingCart .productImg{
+        width:2%;
+        padding: 10px;
+    }
+    
+    
+    .shoppingCart th{
+        font-size: 13px;
+    }
+    
+    
+    .shoppingCart tr .productName{
+        width: 10%;
+        padding: 8px;
+    }
+    
+    .shoppingCart tr .productName h2{
+        font-size: 11px;
+        margin-bottom: 10%;
+    }
+    
+    .shoppingCart tr .productName p{
+        font-size: 11px;
+        margin-top: 20%;
+    }
+    
+
+    
+    .shoppingCart  .productQuantity button{
+        padding: 1px 3px;
+        font-size: 10px;
+    }
+    
+    .shoppingCart .quantity p{
+        font-size: 11px;
+    }
+    
+    .shoppingCart .quantity{
+        width:4%;
+    }
+    
+    .shoppingCart  .ProductPrice{
+        text-align: center;
+        width: 4%;
+        font-size: 13px;
+    }
+    
+    
+    .shoppingCart .ProductSubTotal{
+        text-align: center;
+        width: 4%;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+    .shoppingCart .summary{
+        width: 300px;
+        margin: auto;
+        padding: 20px 20px 40px 20px;
+        gap: 20px;
+        margin-top: 80px;
+    }
+
+    .shoppingCart .cartSummary{
+        border-radius: 4%;
+    }
+
+    .shoppingCart .summary h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .shoppingCart .clearCart{
+        padding: 3px 10px;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .shoppingCart .subtotal{
+        font-size: 15px;
+    }
+    
+    .shoppingCart .shippingFee{
+        font-size: 15px;
+    }  
+    
+    .shoppingCart .total{
+        font-size: 18px;
+    }
+    
+    
+    .shoppingCart .checkOut button{
+        padding: 8px 30%;
+        font-size: 15px;
+    }
+}
+
